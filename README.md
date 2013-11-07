@@ -1,16 +1,16 @@
-# DesignPatternsPHP
+# Patrones de Diseño en PHP
 
-[![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+Esta es una colección de patrones de diseño con código de ejemplo para implementarlos en PHP. Cada patrón tiene una pequeña lista de ejemplos (la mayoría de ellos de Zend Framework, Symfony2 o Doctrine2).
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
+Muchas veces los patrones de diseño son conocidos por muchos programadores, pero no saben cuando aplicarlos.
 
-I think the problem with patterns is that often people do know them but don't know when to apply which.
+Esta colección es una traducción libre de [DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP).
 
-## Patterns
+## Patrones
 
-The patterns can be structured in roughly three different categories. Please click on the :notebook: for a full explanation of the pattern on Wikipedia.
+Los patrones pueden estar estructurados aproximadamento en tres categorías, Haz clic en el :notebook: para ver una explicación completa del patrón en la Wikipedia.
 
-### Creational
+### Creacional
 
 * [AbstractFactory](AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
 * [Builder](Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
@@ -21,7 +21,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
 * [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
 
-### Structural
+### Estructural
 
 * [Adapter](Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
 * [Composite](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
@@ -33,7 +33,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [DataMapper](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
 * [DependencyInjection](DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 
-### Behavioral
+### Comportamiento
 
 * [ChainOfResponsibilities](ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
 * [Command](Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
@@ -46,12 +46,13 @@ The patterns can be structured in roughly three different categories. Please cli
 * [TemplateMethod](TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
 * [Visitor](Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
 
-## Contribute
+## Contribuye
 
-Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
-To establish a consistent code quality, please check your code using [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) against [this standard](https://github.com/domnikl/Symfony2-coding-standard).
+No dudes en ampliar la colección de patrones añadiendo tus propios ejemplos, ¡puedes enviar un pull request con tus cambios! Para tener un código de calidad, antes comprueba tu código usando [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) con [este estándar](https://github.com/domnikl/Symfony2-coding-standard).
 
-## License
+## Licencia
+
+Esta colección está bajo licencia MIT, a continuación la licencia:
 
 (The MIT License)
 
